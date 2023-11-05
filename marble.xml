@@ -1,22 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="hhvvg"
+  <remote  name="github"
            fetch="https://github.com/"
            sync-c="true"
            sync-j="8"
-           revision="refs/heads/13.0" />
+           revision="refs/heads/14" />
   <remote  name="gitlab"
            fetch="https://gitlab.com"
            sync-c="true"
            sync-j="8"
            revision="refs/heads/13" />
 
-    <project path="vendor/hms" name="gitofleonardo/android_vendor_hms" remote="hhvvg" revision="master" />
-    <project path="device/xiaomi/marble" name="gitofleonardo/device_xiaomi_marble" remote="hhvvg"/>
-    <project path="vendor/xiaomi/marble" name="gitofleonardo/vendor_xiaomi_marble" remote="hhvvg"/>
-    <project path="hardware/xiaomi" name="gitofleonardo/hardware_xiaomi" remote="hhvvg" revision="13" />
-    <project path="device/xiaomi/marble-kernel" name="gitofleonardo/device_xiaomi_marble-kernel" remote="hhvvg" />
+    <project path="vendor/hms" name="gitofleonardo/android_vendor_hms" remote="github" revision="master" />
+    <project path="device/xiaomi/marble" name="gitofleonardo/device_xiaomi_marble" remote="github"/>
+  
+    <project path="vendor/xiaomi/marble" name="JYRRC/vendor_xiaomi_marble" remote="github"/>
+    <project path="hardware/xiaomi" name="JYRRC/hardware_xiaomi" remote="github" revision="13" />
+    <project path="device/xiaomi/marble-kernel" name="JYRRC/device_xiaomi_marble-kernel" remote="github" />
 
     <project path="vendor/xiaomi/camera" name="JYRRC/proprietary_vendor_xiaomi_camera" remote="gitlab" />
 </manifest>
