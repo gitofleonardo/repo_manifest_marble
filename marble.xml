@@ -5,7 +5,7 @@
            fetch="https://github.com/"
            sync-c="true"
            sync-j="8"
-           revision="refs/heads/14" />
+           revision="refs/heads/13.0" />
   <remote  name="gitlab-marble"
            fetch="https://gitlab.com"
            sync-c="true"
@@ -13,11 +13,11 @@
            revision="refs/heads/13" />
 
     <project path="vendor/hms" name="gitofleonardo/android_vendor_hms" remote="github-marble" revision="master" />
+
     <project path="device/xiaomi/marble" name="gitofleonardo/device_xiaomi_marble" remote="github-marble"/>
-  
     <project path="vendor/xiaomi/marble" name="JYRRC/vendor_xiaomi_marble" remote="github-marble"/>
     <project path="hardware/xiaomi" name="JYRRC/hardware_xiaomi" remote="github-marble" revision="13" />
     <project path="device/xiaomi/marble-kernel" name="JYRRC/device_xiaomi_marble-kernel" remote="github-marble" />
 
-    <project path="vendor/xiaomi/camera" name="JYRRC/proprietary_vendor_xiaomi_camera-leica" remote="gitlab-marble" />
+    <project path="vendor/xiaomi/camera" name="JYRRC/proprietary_vendor_xiaomi_camera" remote="gitlab-marble" />
 </manifest>
